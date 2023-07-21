@@ -1,0 +1,904 @@
+<html>
+ <head>
+  <title>сайт</title>
+ </head>
+ <body>
+  <header class="header">
+    <div class="container">
+      <div class="container-menu">
+        <a href="#0"><img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"
+            class="header-logo" alt="Logo"></a>
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a href="#" class="menu-link">главная</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-link">посты</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-link">статьи</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-link">теги</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-link">темы</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#" class="menu-link">контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="headline">блог о творчестве, спорте, и образе жизни</h1>
+    </div>
+  </header>
+
+  <div class="content-container">
+
+    <div class="container-main">
+      <main class="cards">
+
+        <article class="card">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" class="card-image" alt="Человек на пляже">
+          <div class="card-description">
+            <header class="card-header">
+              <ul class="category">
+                <li class="category-name"><a href="#0" class="category-item">travel</a></li>
+                <li class="category-name"><a href="#0" class="category-item">health</a></li>
+              </ul>
+              <h3 class="card-name"><a href="#" class="card-name-link">10 мест, ради которых стоит проснуться на
+                  рассвете</a></h3>
+              <div class="card-info">
+                <time class="card-date" datetime="2019-06-10"> 10 июня 2019</time>
+                <span class="card-author">Неизвестный автор</span>
+              </div>
+            </header>
+            <div class="card-content">
+              <p class="paragraph">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города. Музеи еще закрыты. Что посмотреть?</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" class="card-image" alt="Женщина занимается йогой">
+          <div class="card-description">
+            <header class="card-header">
+              <ul class="category">
+                <li class="category-name"><a href="#0" class="category-item">health</a></li>
+                <li class="category-name"><a href="#0" class="category-item">lifestyle</a></li>
+              </ul>
+              <h3 class="card-name"><a href="#" class="card-name-link">йога для начинающих в домашних условиях</a></h3>
+              <div class="card-info">
+                <time class="card-date"> 10 июня 2019</time>
+                <span class="card-author">Неизвестный автор</span>
+              </div>
+            </header>
+            <div class="card-content">
+              <p class="paragraph">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того,
+                что можно найти в шкафу.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" class="card-image" alt="Девушка в толпе людей">
+          <div class="card-description">
+            <header class="card-header">
+              <ul class="category">
+                <li class="category-name"><a href="#" class="category-item">music</a></li>
+              </ul>
+              <h3 class="card-name"><a href="#" class="card-name-link">лучшие музыкальные фестивали этого лета</a></h3>
+              <div class="card-info">
+                <time class="card-date" datetime="2019-06-10"> 10 июня 2019</time>
+                <span class="card-author">Неизвестный автор</span>
+              </div>
+            </header>
+            <div class="card-content">
+              <p class="paragraph">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьете свою палатку? Мы составили список лучших летних фестивалей по всему миру.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" class="card-image" alt="Еда на столе">
+          <div class="card-description">
+            <header class="card-header">
+              <ul class="category">
+                <li class="category-name"><a href="#" class="category-item">lyfestyle</a></li>
+                <li class="category-name"><a href="#" class="category-item">food</a></li>
+              </ul>
+              <h3 class="card-name"><a href="#" class="card-name-link">наукоёмкий подход к кулинарии</a></h3>
+              <div class="card-info">
+                <time class="card-date" datetime="2019-06-10"> 10 июня 2019</time>
+                <span class="card-author">Неизвестный автор</span>
+              </div>
+            </header>
+            <div class="card-content">
+              <p class="paragraph">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" class="card-image" alt="Подушка с принтом Hang out spot">
+          <div class="card-description">
+            <header class="card-header">
+              <ul class="category">
+                <li class="category-name"><a href="#" class="category-item">lifestyle</a></li>
+                <li class="category-name"><a href="#" class="category-item">interior</a></li>
+                <li class="category-name"><a href="#" class="category-item">art</a></li>
+              </ul>
+              <h3 class="card-name"><a href="#" class="card-name-link">делаем модные принты на подушках для
+                  интерьера</a></h3>
+              <div class="card-info">
+                <time class="card-date" datetime="2019-06-10">10 июня 2019</time>
+                <span class="card-author">Неизвестный автор</span>
+              </div>
+            </header>
+            <div class="card-content">
+              <p class="paragraph">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" class="card-image" alt="Горы">
+          <div class="card-description">
+            <header class="card-header">
+              <ul class="category">
+                <li class="category-name"><a href="#" class="category-item">travel</a></li>
+                <li class="category-name"><a href="#" class="category-item">lifestyle</a></li>
+              </ul>
+              <h3 class="card-name"><a href="#" class="card-name-link">как первый раз отправиться в горы?</a></h3>
+              <div class="card-info">
+                <time class="card-date" datetime="2019-06-10">10 июня 2019</time>
+                <span class="card-author">Неизвестный автор</span>
+              </div>
+            </header>
+            <div class="card-content">
+              <p class="paragraph">Для начала нужно определиться, в каком формате пройдет ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+            <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" class="card-image" alt="Еда на столе">
+          <div class="card-description">
+            <header class="card-header">
+              <ul class="category">
+                <li class="category-name"><a href="#" class="category-item">lifestyle</a></li>
+                <li class="category-name"><a href="#" class="category-item">food</a></li>
+              </ul>
+              <h3 class="card-name"><a href="#" class="card-name-link">наукоёмкий подход к кулинарии</a></h3>
+              <div class="card-info">
+                <time class="card-date" datetime="2019-06-10">10 июня 2019</time>
+                <span class="card-author">Неизвестный автор</span>
+              </div>
+            </header>
+            <div class="card-content">
+              <p class="paragraph">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+
+    <aside class="sidebar">
+      <section>
+        <div class="recent-posts">
+          <h2 class="recent-posts-title">новые посты</h2>
+        </div>
+
+        <article class="recent-post">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg" class="recent-post-image" alt="Человек на пляже">
+          <header class="recent-post-title">
+            <time class="recent-post-date" datetime="2019-06-14"> 14 июня 2019</time>
+            <h3 class="recent-post-name"><a href="#" class="recent-post-link">10 мест, ради которых стоит проснуться</a>
+            </h3>
+          </header>
+        </article>
+
+        <article class="recent-post">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg" class="recent-post-image" alt="Женщина занимается йогой">
+          <header class="recent-post-title">
+            <time class="recent-post-date" datetime="2019-06-14"> 14 июня 2019</time>
+            <h3 class="recent-post-name"><a href="#" class="recent-post-link">йога для домашних</a></h3>
+          </header>
+        </article>
+
+        <article class="recent-post">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg" class="recent-post-image" alt="Комната с креслом">
+          <header class="recent-post-title">
+            <time class="recent-post-date" datetime="2019-06-14"> 14 июня 2019</time>
+            <h3 class="recent-post-name"><a href="#" class="recent-post-link">как мы превратили классное место в
+                балкон</a></h3>
+          </header>
+        </article>
+
+        <article class="recent-post">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg" class="recent-post-image" alt="Еда на столе">
+          <header class="recent-post-title">
+            <time class="recent-post-date" datetime="2019-06-14"> 14 июня 2019</time>
+            <h3 class="recent-post-name"><a href="#" class="recent-post-link">кулинарный подход к науке</a></h3>
+          </header>
+        </article>
+
+        <article class="recent-post">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg" class="recent-post-image" alt="Три девушки">
+          <header class="recent-post-title">
+            <time class="recent-post-date" datetime="2019-06-14"> 14 июня 2019</time>
+            <h3 class="recent-post-name"><a href="#" class="recent-post-link">лучшие прически для распущенных волос</a>
+            </h3>
+          </header>
+        </article>
+
+        <form class="search">
+          <span class="visually-hidden">Search</span>
+          <input type="text" placeholder="Найти..." class="search-text-input">
+          <button class="button-search" type="submit"></button>
+        </form>
+      </section>
+
+      <section>
+        <div class="subscribe-container">
+          <h2 class="subscribe-title">рассылка</h2>
+        </div>
+        <form class="subscribe">
+          <div>
+            <input type="email" placeholder="Ваш email-адрес" class="email" required />
+          </div>
+          <button type="submit" class="subscribe-button">Подписаться</button>
+        </form>
+      </section>
+
+      <section class="tags">
+        <div class="tags-container">
+          <h2 class="tags-title">теги</h2>
+        </div>
+        <ul class="tag-list">
+          <li class="tag-list-item"><a href="#0" class="tag-link">fashion</a></li>
+          <li class="tag-list-item"><a href="#0" class="tag-link">music</a></li>
+          <li class="tag-list-item"><a href="#0" class="tag-link">lifestyle</a></li>
+          <li class="tag-list-item"><a href="#0" class="tag-link">art</a></li>
+          <li class="tag-list-item"><a href="#0" class="tag-link">interior</a></li>
+          <li class="tag-list-item"><a href="#0" class="tag-link">travel</a></li>
+          <li class="tag-list-item"><a href="#0" class="tag-link">food</a></li>
+          <li class="tag-list-item"><a href="#0" class="tag-link">health</a></li>
+        </ul>
+      </section>
+
+      <section class="categories">
+        <div class="categories-container">
+          <h2 class="categories-title">темы</h2>
+        </div>
+        <ul class="category-list">
+          <li class="category-list-item"><a href="#0" class="category-link">Красота<span class="index">12</span></a></li>
+          <li class="category-list-item"><a href="#0" class="category-link">Здоровье<span class="index">4</span></a></li>
+          <li class="category-list-item"><a href="#0" class="category-link">Образ жизни<span class="index">145</span></a>
+          </li>
+          <li class="category-list-item"><a href="#0" class="category-link">Музыка<span class="index">28</span></a></li>
+          <li class="category-list-item"><a href="#0" class="category-link">Спорт<span class="index">62</span></a></li>
+          <li class="category-list-item"><a href="#0" class="category-link">Йога<span class="index">8</span></a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+  <footer class="footer">
+    <address class="address">
+      <ul class="social-list">
+        <li class="social-logo"><a href="#0" class="socials-link socials-link-dribbble">
+            <span class="socials-link-text">dribbble</span></a></li>
+        <li class="social-logo"><a href="#0" class="socials-link socials-link-pinterest">
+            <span class="socials-link-text">pinterest</span></a></li>
+        <li class="social-logo"><a href="#0" class="socials-link socials-link-tumblr">
+            <span class="socials-link-text">tumblr</span></a></li>
+    </address>
+    <div>
+      <a href="#0" class="copyright">Copyright &copy 2009–2019 City Blog LLC.</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+<style>
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: #000000;
+  min-width: 1200px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  background-color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  padding-left: 21px;
+  padding-right: 15px;
+  z-index: 2;
+  position: relative;
+}
+
+.container-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.header-logo {
+  width: 179px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-list-item {
+  vertical-align: top;
+  list-style-type: none;
+}
+
+.menu-list-item:nth-child(n + 2) {
+  margin-left: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-list-item a:hover{ 
+  text-decoration: underline;
+}
+.menu-link {
+  font-family: "OpenSans Regular";
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.headline {
+  width: 730px;
+  padding-left: 218px;
+  padding-bottom: 128px;
+  text-align: center;
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 75px;
+  color: #ffffff;
+}
+
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-main {
+  width: 778px;
+  padding-left: 15px;
+  padding-top: 64px;
+  padding-bottom: 70px;
+}
+
+.cards {
+  width: 778px;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 778px;
+}
+
+.card:nth-child(n + 2) {
+  margin-top: 54px;
+}
+
+.card-image {
+  width: 381px;
+  height: 294px;
+  margin-right: 30px;
+  object-fit: cover;
+  position: relative;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 54px;
+}
+.paragraph {
+  margin-top: -28px;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "OpenSans Regular";
+}
+
+.category {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: -28px;
+  list-style-type: none;
+}
+
+.category-name {
+  margin-top: -32px;
+}
+
+.category-item {
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  font-size: 14px;
+  color: #b59f5b;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.category-name:nth-child(n + 2) {
+  margin-left: 20px;
+}
+
+.card-name {
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0f0d0e;
+  text-transform: uppercase;
+  margin-top: -33px;
+  padding-bottom: 26px;
+}
+
+.card-name-link {
+  text-decoration: none;
+  color: #0f0d0e;
+}
+.card-name-link:hover{
+  color: #cc9966;
+}
+.card-info {
+  margin-bottom: 78px;
+}
+
+.card-date {
+  font-family: "OpenSans Regular";
+  font-weight: 400;
+  font-size: 12px;
+  color: #888888;
+  text-transform: capitalize;
+  margin-right: 15px;
+}
+
+.card-author {
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  font-size: 12px;
+  color: #000000;
+  text-transform: inherit;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside section:nth-of-type(n + 2) {
+  margin-top: 60px;
+}
+
+.sidebar {
+  padding-right: 15px;
+  padding-top: 64px;
+}
+
+.recent-posts {
+  width: 272px;
+  margin-top: -6px;
+  text-align: justify;
+  font-family: "OpenSans Regular";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  text-transform: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.recent-posts-title,
+.subscribe-title,
+.tags-title,
+.categories-title {
+  display: inline-block;
+    width: 272px;
+    margin-top: -2px;
+    font-family: "OpenSans Bold";
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 44px;
+    text-decoration: none;
+}
+
+.recent-posts-title::after,
+.subscribe-title::after,
+.tags-title::after,
+.categories-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 66px;
+  bottom: 35px;
+  left: 50%;
+  margin-left: -30px;
+  background-color: #b59f5b;
+}
+
+.recent-post-link {
+  color: #000000;
+}
+.recent-post-link:hover {
+  color: #cc9966;
+}
+.recent-post {
+  width: 272px;
+  height: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.recent-post:first-child {
+  padding-top: 64px;
+  width: 272px;
+  height: 60px;
+}
+
+.recent-post:nth-child(n + 3) {
+  margin-top: 20px;
+}
+
+.recent-post-image {
+  min-width: 70px;
+  min-height: 70px;
+  margin-right: 15px;
+  object-fit: cover;
+  position: relative;
+}
+
+.recent-post-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -9px;
+  margin-left: 4px;
+}
+
+.recent-post-date {
+  font-family: "OpenSans Regular";
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  text-transform: inherit;
+  margin-top: 3px;
+}
+
+.recent-post-name {
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  font-size: 14px;
+  color: #0f0d0e;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 4px;
+}
+
+.search {
+  width: 272px;
+  display: flex;
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+
+.button-search {
+  width: 68px;
+  height: 51px;
+  border: none;
+  background-color: #b59f5b;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: center center;
+}
+
+.button-search:hover {
+  outline: 1px solid #8f7e49;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.search-text-input {
+  height: 48px;
+  margin: 0;
+  padding: 0 15px;
+  border: none;
+  background-color: #f4f7f6;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-text-input {
+  width: 272px;
+  padding-left: 20px;
+  border: 0;
+  font-family: "OpenSans Regular";
+  font-weight: 400;
+  font-size: 13px;
+  color: #a2a4a3;
+}
+
+.button-search:hover,
+.subscribe-button:hover {
+  outline: 1px solid #b59f5b;
+}
+
+.subscribe-container {
+  position: relative;
+  margin-top: 55px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-top: -11px;
+}
+
+.email {
+  width: 252px;
+  height: 48px;
+  background-color: #f4f7f6;
+  margin-bottom: 20px;
+  font-family: "OpenSans Regular";
+  font-weight: 400;
+  font-size: 13px;
+  color: #a2a4a3;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0;
+}
+
+.subscribe-button {
+  border: none;
+  width: 272px;
+  height: 48px;
+  background-color: #b59f5b;
+  text-transform: uppercase;
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.tags,
+.categories {
+  width: 272px;
+}
+
+.tags-container {
+  position: relative;
+}
+
+.tag-list,
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.tag-list {
+  margin: -2px;
+}
+
+.tag-list-item {
+  margin: 11px 3px;
+}
+
+.tag-link {
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  font-size: 12px;
+  color: #0f0d0e;
+  text-transform: uppercase;
+  border: 3px solid #eeeeee;
+  padding: 5px 12px;
+}
+.tag-link:hover {
+  border: 3px solid #b59f5b;
+}
+
+.category-link {
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  font-size: 14px;
+  color: #0f0d0e;
+}
+
+.categories-container {
+  position: relative;
+}
+
+.category-list {
+  flex-direction: column;
+}
+
+.category-list-item {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eeeeee;
+  list-style-type: none;
+}
+.category-list-item a:hover{
+  color: #cc9966;
+}
+
+.category-list-item:nth-child(n + 2) {
+  margin-top: 15px;
+}
+
+.index {
+  vertical-align: super;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #b59f5b;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  width: 1170px;
+}
+
+.address {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7f6;
+  margin-bottom: 70px;
+}
+
+.social-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.socials-link {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+.socials-link-dribbble {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg");
+}
+
+.socials-link-pinterest {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+}
+
+.socials-link-tumblr {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-logo:nth-child(n + 2) {
+  margin-left: 25px;
+}
+
+.socials-link-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.copyright {
+  width: 220px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  color: #c6c6c6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>

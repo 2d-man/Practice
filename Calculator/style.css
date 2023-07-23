@@ -91,3 +91,7 @@ body{
 .triple{
     flex-basis: 73%;
 }
+
+.dark{
+    background: black;
+}

@@ -2,6 +2,7 @@ let runningTotal = 0;
 let buffer = '0';
 let previousOperator;
 
+const theme = Array.from(document.getElementsByTagName('body'))[0];
 const screen = document.querySelector('.screen');
 
 function buttonClick(value) {
@@ -35,24 +36,31 @@ function handleSymbol(symbol) {
                 buffer = buffer.substring(0, buffer.length - 1)
             }
             break;
-        case ',':  
+        case ',':
             buffer += '.';
+            break;
+        case '🌒':
+            darkTheme();
             break;
 
         case '+':
         case '−':
         case '×':
         case '÷':
-        case '^':    
+        case '^':
             handleMath(symbol);
             break;
     }
 }
 
+function darkTheme() {
+    theme.classList.toggle('dark');
+}
+
 function handleMath(symbol) {
-    if (buffer === '0') {
-        return;
-    }
+    // if (buffer === '0') {
+    //     return;
+    // }
 
     const intBuffer = parseFloat(buffer);
 
@@ -73,10 +81,15 @@ function flushOperation(intBuffer) {
     } else if (previousOperator === '×') {
         runningTotal *= intBuffer;
     } else if (previousOperator === '÷') {
-        runningTotal /= intBuffer;
+        if (buffer != 0) {
+            runningTotal /= intBuffer;
+        } else {
+            alert('На 0 делить нельзя!')
+        }
+        
     } else if (previousOperator === '^') {
         runningTotal = Math.pow(runningTotal, intBuffer);
-    } 
+    }
 }
 
 function handleNumber(numberString) {

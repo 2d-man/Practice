@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 27" fill="none" class="logo">
+        <g clipPath="url(#clip0_5_24)">
+            <path fill="#FF9900"
+                d="M3.50012 1.47878L14.5257 6.7957L13.1946 0L33.3588 15.0591L6.34393 15.0591L3.50012 1.47878Z"></path>
+            <path fillRule="evenodd" clipRule="evenodd" fill="white"
+                d="M26.3202 15.0591C26.323 14.6586 26.3007 14.2455 26.2514 13.8248C25.8871 10.7167 24.1831 8.37567 22.4453 8.596C20.7076 8.81633 19.5943 11.5146 19.9586 14.6227C19.9801 14.7699 20.0043 14.9154 20.031 15.0591L26.3202 15.0591Z">
+            </path>
+            <path fillRule="evenodd" clipRule="evenodd" fill="black"
+                d="M22.9108 15.0597C22.926 14.8021 22.9187 14.5306 22.886 14.2521C22.716 12.8017 21.9232 11.7089 21.1152 11.8113C20.3072 11.9138 19.7901 13.1727 19.9601 14.6231C19.9749 14.7738 19.9962 14.9195 20.0233 15.0597L22.9108 15.0597Z">
+            </path>
+            <path fillRule="evenodd" clipRule="evenodd" fill="white"
+                d="M19.7228 15.0598C19.7121 14.9154 19.6982 14.7699 19.6811 14.6235C19.3167 11.5154 17.6127 9.17434 15.875 9.39467C14.2246 9.60394 13.0728 12.1424 13.2734 15.0598L19.7228 15.0598Z">
+            </path>
+            <path fillRule="evenodd" clipRule="evenodd" fill="black"
+                d="M16.2591 15.06C16.2624 14.8587 16.2522 14.6502 16.2273 14.4377C16.0573 12.9872 15.2645 11.8944 14.4565 11.9969C13.6772 12.0957 13.1136 13.6485 13.2271 15.06L16.2591 15.06Z">
+            </path>
+            <path fill="#FF9900" d="M36.5287 8.9926L21.6469 15.0593H33.6382L36.5287 8.9926Z"></path>
+            <path fill="black" d="M36.5285 8.9926L32.8192 10.5058L35.0958 12.0103L36.5285 8.9926Z"></path>
+        </g>
+        <rect y="15" width="40" height="12" rx="6" fill="white"></rect>
+        <path fillRule="evenodd" clipRule="evenodd" fill="#E71300"
+            d="M7.36413 15C6.86332 17.1452 6.56705 19.0869 6.55279 21.0649C6.53864 23.0263 6.80189 24.9217 7.31758 27H6C2.68629 27 0 24.3137 0 21C0 17.6863 2.68629 15 6 15H7.36413ZM13.5467 15C12.8755 17.5576 12.565 19.3868 12.5526 21.1082C12.5403 22.8221 12.823 24.588 13.5358 27H26.4642C27.177 24.588 27.4597 22.8221 27.4474 21.1082C27.435 19.3868 27.1245 17.5576 26.4533 15H13.5467ZM33.4472 21.0649C33.4329 19.0869 33.1367 17.1452 32.6359 15H34C37.3137 15 40 17.6863 40 21C40 24.3137 37.3137 27 34 27H32.6824C33.1981 24.9217 33.4614 23.0263 33.4472 21.0649Z">
+        </path>
+        <defs>
+            <clipPath id="clip0_5_24">
+                <rect width="33" height="15" fill="white" transform="translate(3.5)"></rect>
+            </clipPath>
+        </defs>
+    </svg>
+
+    <div class="container">
+
+        <div class="wrapper">
+            <div class="form-container">
+
+                <form name="test" method="post" action="input1.php">
+
+                    <div class="form-block">
+                        <div class="form-description">
+                            <b>Класс:</b>
+                        </div>
+
+                        <div class="class-button-container">
+                            <button class="class-button">1</button>
+                            <button class="class-button">2</button>
+                            <button class="class-button">3</button>
+                            <button class="class-button">4</button>
+                            <button class="class-button">5</button>
+                            <button class="class-button">6</button>
+                            <button class="class-button">7</button>
+                            <button class="class-button">8</button>
+                            <button class="class-button">9</button>
+                            <button class="class-button">10</button>
+                            <button class="class-button">11</button>
+                            <!-- <button class="class-button"></button> -->
+                        </div>
+
+                    </div>
+
+                    <div class="form-block">
+                        <div class="form-description">
+                            <b>Расписание:</b>
+                        </div>
+
+                        <div class="form-select">
+                            <select size="5" multiple name="select-schedule" class="select-schedule select-style">
+                                <option value="168">
+                                    8:00 (Математика М.И.Моро)
+                                </option>
+                                <option value="169">
+                                    8:00 Стандарт (Математика М.И.Моро)
+                                </option>
+                                <option value="170">
+                                    10:00 (Математика М.И.Моро)
+                                </option>
+                                <option value="171">
+                                    10:00 Стандарт (Математика М.И.Моро)
+                                </option>
+                                <option value="221">
+                                    8:00 (Математика Л.Г.Петерсон)
+                                </option>
+                                <option value="218">
+                                    8:00 Стандарт (Математика Л.Г.Петерсон)
+                                </option>
+                                <option value="224">
+                                    10:00 (Математика Л.Г.Петерсон)
+                                </option>
+                                <option value="222">
+                                    10:00 Стандарт (Математика Л.Г.Петерсон)
+                                </option>
+                                <option value="178">
+                                    Ускоренная 1–2 классы за год
+                                </option>
+                                <option value="181">
+                                    Программа Эльконина-Давыдова. Стандарт
+                                </option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="form-block">
+                        <div class="form-description">
+                            <b>Предмет:</b>
+                        </div>
+
+                        <div class="form-select">
+                            <select size="5" multiple name="select-subject" class="select-subject select-style">
+                                <option value="Math">Математика</option>
+                                <option value="Russian">Русский</option>
+                                <option value="Literature">Литература</option>
+                                <option value="Ambient">Окружающий</option>
+                                <option value="">Химия</option>
+                                <option value="">История</option>
+                                <option value="">Биология</option>
+                                <option value="">География</option>
+                                <option value="">Информатика</option>
+                                <option value="">Физика</option>
+                                <option value="">Обществознание</option>
+                                <option value="">Ангийский</option>
+                                <option value="">Немецкий</option>
+                                <option value="">Французский</option>
+                                <option value="">Испанский</option>
+                                <option value="">Страноведение</option>
+                                <option value="">ИЗО</option>
+                                <option value="">Музыка</option>
+                                <option value="">Технология</option>
+                                <option value="">Физкультура</option>
+                                <option value="">Астрономия</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-block">
+                        <div class="form-description">
+                            <b>Фамилия преподавателя:</b>
+                        </div>
+                        <div class="form-select">
+                            <input class="select-style" type="text">
+                        </div>
+                    </div>
+                </form>
+
+                <div class="button-container form-block">
+                    <button class="search">Поиск</button>
+                </div>
+
+            </div>
+
+            <div class="screen">
+
+            </div>
+
+
+
+            <!-- <div class="control">
+            
+            <button class="button-nav">fdfd</button>
+            <button class="button-nav">dfdf</button>
+            <button class="button-nav">dfdf</button>
+            <button class="button-nav">dfdf</button>
+        </div> -->
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

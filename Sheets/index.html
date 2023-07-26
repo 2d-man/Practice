@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Расписания</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -46,113 +46,376 @@
         <div class="wrapper">
             <div class="form-container">
 
-                <form name="test" method="post" action="input1.php">
+                <!-- <form name="test" method="post" action="input1.php"> -->
 
-                    <div class="form-block">
-                        <div class="form-description">
-                            <b>Класс:</b>
-                        </div>
-
-                        <div class="class-button-container">
-                            <button class="class-button">1</button>
-                            <button class="class-button">2</button>
-                            <button class="class-button">3</button>
-                            <button class="class-button">4</button>
-                            <button class="class-button">5</button>
-                            <button class="class-button">6</button>
-                            <button class="class-button">7</button>
-                            <button class="class-button">8</button>
-                            <button class="class-button">9</button>
-                            <button class="class-button">10</button>
-                            <button class="class-button">11</button>
-                            <!-- <button class="class-button"></button> -->
-                        </div>
-
+                <div class="form-block">
+                    <div class="form-description">
+                        <b>Класс:</b>
                     </div>
 
-                    <div class="form-block">
-                        <div class="form-description">
-                            <b>Расписание:</b>
-                        </div>
-
-                        <div class="form-select">
-                            <select size="5" multiple name="select-schedule" class="select-schedule select-style">
-                                <option value="168">
-                                    8:00 (Математика М.И.Моро)
-                                </option>
-                                <option value="169">
-                                    8:00 Стандарт (Математика М.И.Моро)
-                                </option>
-                                <option value="170">
-                                    10:00 (Математика М.И.Моро)
-                                </option>
-                                <option value="171">
-                                    10:00 Стандарт (Математика М.И.Моро)
-                                </option>
-                                <option value="221">
-                                    8:00 (Математика Л.Г.Петерсон)
-                                </option>
-                                <option value="218">
-                                    8:00 Стандарт (Математика Л.Г.Петерсон)
-                                </option>
-                                <option value="224">
-                                    10:00 (Математика Л.Г.Петерсон)
-                                </option>
-                                <option value="222">
-                                    10:00 Стандарт (Математика Л.Г.Петерсон)
-                                </option>
-                                <option value="178">
-                                    Ускоренная 1–2 классы за год
-                                </option>
-                                <option value="181">
-                                    Программа Эльконина-Давыдова. Стандарт
-                                </option>
-                            </select>
-
-                        </div>
+                    <div class="class-button-container">
+                        <button class="class-button">1</button>
+                        <button class="class-button">2</button>
+                        <button class="class-button">3</button>
+                        <button class="class-button">4</button>
+                        <button class="class-button">5</button>
+                        <button class="class-button">6</button>
+                        <button class="class-button">7</button>
+                        <button class="class-button">8</button>
+                        <button class="class-button">9</button>
+                        <button class="class-button">10</button>
+                        <button class="class-button">11</button>
+                        <!-- <button class="class-button"></button> -->
                     </div>
 
-                    <div class="form-block">
-                        <div class="form-description">
-                            <b>Предмет:</b>
-                        </div>
+                </div>
 
-                        <div class="form-select">
-                            <select size="5" multiple name="select-subject" class="select-subject select-style">
-                                <option value="Math">Математика</option>
-                                <option value="Russian">Русский</option>
-                                <option value="Literature">Литература</option>
-                                <option value="Ambient">Окружающий</option>
-                                <option value="">Химия</option>
-                                <option value="">История</option>
-                                <option value="">Биология</option>
-                                <option value="">География</option>
-                                <option value="">Информатика</option>
-                                <option value="">Физика</option>
-                                <option value="">Обществознание</option>
-                                <option value="">Ангийский</option>
-                                <option value="">Немецкий</option>
-                                <option value="">Французский</option>
-                                <option value="">Испанский</option>
-                                <option value="">Страноведение</option>
-                                <option value="">ИЗО</option>
-                                <option value="">Музыка</option>
-                                <option value="">Технология</option>
-                                <option value="">Физкультура</option>
-                                <option value="">Астрономия</option>
-                            </select>
-                        </div>
+                <div class="form-block">
+                    <div class="form-description">
+                        <b>Расписание:</b>
                     </div>
 
-                    <div class="form-block">
-                        <div class="form-description">
-                            <b>Фамилия преподавателя:</b>
-                        </div>
-                        <div class="form-select">
-                            <input class="select-style" type="text">
-                        </div>
+                    <div class="form-select form-grade1">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="168">
+                                8:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="169">
+                                8:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="170">
+                                10:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="171">
+                                10:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="221">
+                                8:00 (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="218">
+                                8:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="224">
+                                10:00 (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="222">
+                                10:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="178">
+                                Ускоренная 1–2 классы за год
+                            </option>
+                            <option value="181">
+                                Программа Эльконина-Давыдова. Стандарт
+                            </option>
+                        </select>
                     </div>
-                </form>
+
+                    <div class="form-select form-grade2">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="182">
+                                8:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="183">
+                                8:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="184">
+                                10:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="185">
+                                10:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="186">
+                                Развивающая программа Эльконина-Давыдова. Стандарт
+                            </option>
+                            <option value="227">
+                                8:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="229">
+                                8:00 (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="231">
+                                10:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="234">
+                                10:00 (Математика Л.Г.Петерсон)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade3">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="187">
+                                8:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="190">
+                                8:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="191">
+                                10:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="194">
+                                10:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="199">
+                                Развивающая программа Эльконина-Давыдова
+                            </option>
+                            <option value="200">
+                                Развивающая программа Эльконина-Давыдова. Стандарт
+                            </option>
+                            <option value="237">
+                                8:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="238">
+                                8:00 (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="240">
+                                10:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="245">
+                                10:00 (Математика Л.Г.Петерсон)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade4">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="201">
+                                8:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="202">
+                                8:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="203">
+                                10:00 (Математика М.И.Моро)
+                            </option>
+                            <option value="204">
+                                10:00 Стандарт (Математика М.И.Моро)
+                            </option>
+                            <option value="206">
+                                Развивающая программа Эльконина-Давыдова
+                            </option>
+                            <option value="208">
+                                Развивающая программа Эльконина-Давыдова. Стандарт
+                            </option>
+                            <option value="246">
+                                8:00 Стандарт (Л.Г.Петерсон)
+                            </option>
+                            <option value="247">
+                                8:00 (Л.Г.Петерсон)
+                            </option>
+                            <option value="250">
+                                10:00 Стандарт (Л.Г.Петерсон)
+                            </option>
+                            <option value="254">
+                                10:00 (Л.Г.Петерсон)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade5">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="172">
+                                8:00 (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="173">
+                                8:00 Стандарт (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="174">
+                                10:00 (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="175">
+                                10:00 Стандарт (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="259">
+                                10:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="262">
+                                10:00 (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="300">
+                                8:00 (Математика. Л.Г. Петерсон)
+                            </option>
+                            <option value="301">
+                                8:00 Стандарт (Математика. Л.Г. Петерсон)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade6">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="176">
+                                8:00 (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="177">
+                                8:00 Стандарт (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="179">
+                                10:00 (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="180">
+                                10:00 Стандарт (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="272">
+                                10:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="274">
+                                10:00 (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="302">
+                                8:00 (Математика. Л.Г. Петерсон)
+                            </option>
+                            <option value="303">
+                                8:00 Стандарт (Математика. Л.Г. Петерсон)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade7">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="188">
+                                8:00 (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="189">
+                                8:00 Стандарт (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="192">
+                                10:00 (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="193">
+                                10:00 Стандарт (Математика А.Г.Мерзляк)
+                            </option>
+                            <option value="277">
+                                10:00 Стандарт (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="282">
+                                10:00 (Математика Л.Г.Петерсон)
+                            </option>
+                            <option value="304">
+                                8:00 (Математика. Л.Г. Петерсон)
+                            </option>
+                            <option value="305">
+                                8:00 Стандарт (Математика. Л.Г. Петерсон)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade8">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="195">
+                                8:00
+                            </option>
+                            <option value="196">
+                                8:00 Стандарт
+                            </option>
+                            <option value="197">
+                                10:00
+                            </option>
+                            <option value="198">
+                                10:00 Стандарт
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade9">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="205">
+                                8:00
+                            </option>
+                            <option value="207">
+                                8:00 Стандарт
+                            </option>
+                            <option value="209">
+                                10:00
+                            </option>
+                            <option value="211">
+                                10:00 Стандарт
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade10">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="212">
+                                8:00 (Математика. Авторский курс)
+                            </option>
+                            <option value="213">
+                                8:00 Стандарт (Математика. Авторский курс)
+                            </option>
+                            <option value="215">
+                                10:00 (Математика. Базовый курс)
+                            </option>
+                            <option value="216">
+                                10:00 Стандарт (Математика. Базовый курс)
+                            </option>
+                            <option value="306">
+                                10:00 (Математика. Авторский курс)
+                            </option>
+                            <option value="307">
+                                10:00 Стандарт (Математика. Авторский курс)
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-select form-grade11">
+                        <select size="4" multiple name="select-schedule" class="select-schedule select-style">
+                            <option value="210">
+                                10:00 (Математика. Базовый курс)
+                            </option>
+                            <option value="214">
+                                10:00 Стандарт (Математика. Базовый курс)
+                            </option>
+                            <option value="288">
+                                10:00 Стандарт (Математика. Авторский курс)
+                            </option>
+                            <option value="290">
+                                10:00 (Математика. Авторский курс)
+                            </option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="form-block">
+                    <div class="form-description">
+                        <b>Предмет:</b>
+                    </div>
+
+                    <div class="form-select">
+                        <select size="5" multiple name="select-subject" class="select-subject select-style">
+                            <option value="Math">Математика</option>
+                            <option value="Russian">Русский</option>
+                            <option value="Literature">Литература</option>
+                            <option value="Ambient">Окружающий</option>
+                            <option value="">Химия</option>
+                            <option value="">История</option>
+                            <option value="">Биология</option>
+                            <option value="">География</option>
+                            <option value="">Информатика</option>
+                            <option value="">Физика</option>
+                            <option value="">Обществознание</option>
+                            <option value="">Ангийский</option>
+                            <option value="">Немецкий</option>
+                            <option value="">Французский</option>
+                            <option value="">Испанский</option>
+                            <option value="">Страноведение</option>
+                            <option value="">ИЗО</option>
+                            <option value="">Музыка</option>
+                            <option value="">Технология</option>
+                            <option value="">Физкультура</option>
+                            <option value="">Астрономия</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-block">
+                    <div class="form-description">
+                        <b>Фамилия преподавателя:</b>
+                    </div>
+                    <div class="form-select">
+                        <input class="select-style" type="text">
+                    </div>
+                </div>
+                <!-- </form> -->
 
                 <div class="button-container form-block">
                     <button class="search">Поиск</button>
@@ -162,17 +425,44 @@
 
             <div class="screen">
 
+                <div class="row-grid-header">
+
+                    <div class="col-grid-header col-grid">
+                        Предмет
+                    </div>
+
+                    <div class="col-grid-header col-grid">
+                        Преподаватель
+                    </div>
+
+                    <div class="col-grid-header col-grid">
+                        ID
+                    </div>
+                </div>
+
+                <div class="row-grid">
+                    
+
+                    <div class="column-subject col-grid">
+
+                    </div>
+
+                    <div class="column-teacher col-grid">
+
+                    </div>
+
+                    <div class="column-gridID col-grid">
+
+                    </div>
+
+
+                </div>
+
+
             </div>
 
 
 
-            <!-- <div class="control">
-            
-            <button class="button-nav">fdfd</button>
-            <button class="button-nav">dfdf</button>
-            <button class="button-nav">dfdf</button>
-            <button class="button-nav">dfdf</button>
-        </div> -->
         </div>
 
     </div>

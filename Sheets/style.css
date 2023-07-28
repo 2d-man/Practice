@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     /* display: flex; */
+    height: 100%;
 }
 
 .logo {
@@ -42,23 +43,40 @@ body {
 }
 
 .form-container {
+    display: flex;
+    flex-direction: column;
     min-width: 30%;
+    border: 2px solid rgb(184, 5, 255);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.form-block {
+    width: 100%;
+    display: block;
+    padding: 15px;
+    
+    /* justify-content: space-between; */
+    gap: 15px;
+    overflow: hidden;
+    
+}
+
+option {
     border: 2px solid rgb(184, 5, 255);
     border-radius: 6px;
 }
 
-.form-block {
-    max-width: 100%;
-    display: flex;
-    padding: 15px;
-    /* justify-content: space-between; */
-    gap: 15px;
-    background: rgba(255, 255, 255, 0.3);
-    
+option:hover, option:active, option:focus, option::before {
+    background: rgba(84, 5, 255, 0.6);
+}
+
+select {
+    overflow: hidden;
 }
 
 .form-description {
-    align-items: center;
+    text-align: center;
     /* width: 30%; */
     /* flex-grow: 0; */
 }
@@ -78,14 +96,16 @@ body {
     margin: 2px;
 }
 
-.class-button:active, .class-button:focus {
-    background: rgb(114, 14, 154);
+.class-button:hover {
+    background: rgba(84, 5, 255, 0.6);
 }
 
-
+.class-button-activated {
+    background: rgba(84, 5, 255, 0.6);
+}
 
 .form-select {
-    max-width: 70%;
+    width: 100%;
     display: flex;
     flex-grow: 1;
     border: 2px solid rgb(184, 5, 255);
@@ -115,7 +135,7 @@ body {
     background: rgba(255, 255, 255, 0.8);
 }
 
-.button-container {
+/* .button-container {
     display: flex;
     flex-direction: row-reverse;
     padding: 5px;
@@ -128,7 +148,7 @@ body {
     border: 1px solid rgba(63, 15, 15, 0.34);
     border-radius: 6px;
     color: white;
-}
+} */
 
 .screen {
     display: flex;
@@ -146,12 +166,12 @@ body {
     text-align: center;
     width: 100%;
     border-bottom: 2px solid rgb(184, 5, 255);
+    background: rgba(84, 5, 255, 0.6);
 }
 
 .col-grid-header {
     border-right: 2px solid rgb(184, 5, 255);
 }
-
 
 .row-grid {
     display: flex;
@@ -172,24 +192,33 @@ body {
 }
 
 .col-grid:first-child {
-    min-width: 75%;
+    min-width: 71%;
 }
 
-.col-grid-header:nth-child(2) {
-    min-width: 20%;
+.col-grid:nth-child(2) {
+    min-width: 15%;
+}
+
+.col-grid:nth-child(3) {
+    min-width: 7%;
 }
 
 .col-grid:last-child {
-    min-width: 5%;
+    min-width: 7%;
     border-right: none;
     border-bottom: none;
 }
 
+.col-link {
+    color: black;
+    background: none;
+}
 
+.col-link:hover {
+    background: rgba(84, 5, 255, 0.6);
+}
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .body{
         max-width: 300px;
     }
